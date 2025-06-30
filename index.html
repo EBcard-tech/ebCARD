@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Digital Business Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    img.profile {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    h1 {
+      margin: 20px 0 5px;
+    }
+    p.title {
+      color: #666;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .contact-links {
+      margin: 20px 0;
+    }
+    .contact-links a {
+      display: block;
+      margin: 10px 0;
+    }
+    .social-icons img {
+      width: 30px;
+      margin: 10px 10px 0;
+    }
+    .location, .branches {
+      margin-top: 20px;
+      text-align: left;
+    }
+    .branches ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+    }
+    .branches li::before {
+      content: "📍 ";
+    }
+    footer {
+      margin-top: 25px;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="profile.jpg" alt="Your Name" class="profile" />
+    <h1>Your Name</h1>
+    <p class="title">Your Job Title or Business Tagline</p>
+    <p>Let's connect!</p>
+
+    <!-- WhatsApp -->
+    <div class="social-icons">
+      <a href="https://wa.me/1234567890" target="_blank" title="Chat on WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://instagram.com/yourhandle" target="_blank" title="Instagram">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" />
+      </a>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="contact-links">
+      <a href="mailto:you@example.com">📧 you@example.com</a>
+    </div>
+
+    <!-- Location -->
+    <div class="location">
+      <strong>📍 Location:</strong>
+      <p>123 Main Street, Your City, Country</p>
+    </div>
+
+    <!-- Branches -->
+    <div class="branches">
+      <strong>🏢 Our Branches:</strong>
+      <ul>
+        <li>Downtown – 45 River Rd</li>
+        <li>Uptown – 88 Market St</li>
+        <li>Suburb – 12 Garden Plaza</li>
+      </ul>
+    </div>
+
+    <footer>
+      © 2025 Your Name or Company
+    </footer>
+  </div>
+</body>
+</html>
